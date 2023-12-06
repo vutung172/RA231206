@@ -26,6 +26,6 @@ public class Staff extends Person{
         this.pay = pay;
     }
     public String toString(){
-        return super.toString()+"school="+this.school+",pay="+this.pay;
+        return "Staff["+super.toString()+",school="+this.school+",pay="+this.pay+"]";
     }
 }

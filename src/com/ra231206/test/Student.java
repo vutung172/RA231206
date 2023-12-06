@@ -36,6 +36,6 @@ public class Student extends Person{
         this.fee = fee;
     }
     public String toString(){
-        return super.toString()+"program="+this.program+",year="+this.year+",fee="+this.fee;
+        return "Student["+super.toString()+",program="+this.program+",year="+this.year+",fee="+this.fee+"]";
     }
 }

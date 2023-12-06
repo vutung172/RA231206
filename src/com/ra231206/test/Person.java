@@ -27,6 +27,6 @@ public class Person {
     }
 
     public String toString(){
-        return "name="+this.name+",address="+this.address;
+        return "Person[name="+name+",address="+address+"]";
     }
 }
